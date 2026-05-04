@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .card { @apply bg-white rounded-xl shadow-md p-6 border border-gray-100; }
+  .btn-primary { @apply bg-[#1B2A6B] hover:bg-[#162259] text-white font-semibold py-2 px-4 rounded-lg transition-all; }
+  .btn-danger { @apply bg-[#C8102E] hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-all; }
+  .badge-active { @apply bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full font-semibold; }
+  .badge-inactive { @apply bg-red-100 text-red-700 text-xs px-2 py-1 rounded-full font-semibold; }
+}
